@@ -17,4 +17,4 @@ for s in fname:
 	xx = np.fft.ifft(y)
 
 	t += time.time_ns()
-	print("%20s\t%d"%(s,t))
+	print("%20s\t%12d (ns)"%(s,t))
